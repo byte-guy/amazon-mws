@@ -1,5 +1,5 @@
 {
-    "name": "mcs/amazon-mws",
+    "name": "nice/amazon-mws",
     "description": "Library to interface with Amazon MWS",
     "license": "MIT",
     "keywords": ["amazon", "mws"],
@@ -8,11 +8,16 @@
         {
             "name": "Michiel Meertens",
             "email": "meertensmichiel28@gmail.com"
+        },
+        {
+            "name": "CPI Technologies GmbH",
+            "email": "contact@cpitech.io",
+            "homepage": "https://cpitech.io"
         }
     ],
     "require": {
-        "php": ">= 5.4",
-        "guzzlehttp/guzzle": "~6.0",
+        "php": ">= 7.4",
+        "guzzlehttp/guzzle": "^7.0.1",
         "spatie/array-to-xml": "^2.1",
         "league/csv": "^8.1"
     },
@@ -21,7 +26,7 @@
     },
     "autoload": {
         "psr-4": {
-            "MCS\\": "src"
+            "Nice\\AmazonMWS\\": "src"
         }
     }
 }

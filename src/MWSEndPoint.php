@@ -1,5 +1,5 @@
 <?php
-namespace MCS;
+namespace Nice\AmazonMWS;
 
 use Exception;
 
